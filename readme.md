@@ -21,4 +21,4 @@ The most importantant thing for your entities is to subclass them from `tpf.Enti
 The layers in your level need to be named in a certain way for TwoPointFive to recognize them. The tile layers for the graphics need to be named `floor`, `ceiling` and `walls`. An additional `light` layer provides an additional tint for each of the tiles in the level. Note that the tilesize for each of these layers must be the same. Again, have a look a the included `lib/game/levels/base1.js` for an example.
 
 
-TwoPointFive comes with some additions to Impact's Debug Module to show To load it, simply require the `plugins.twopointfive.debug` module in your `main.js`.
+TwoPointFive comes with some additions to Impact's Debug Module. To load it, simply require the `plugins.twopointfive.debug` module in your `main.js`.
